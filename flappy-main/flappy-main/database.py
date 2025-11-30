@@ -4,7 +4,7 @@ import datetime
 # ==============================
 # CONNECT TO MONGODB
 # ==============================
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://2331540308_db_user:khang311005@cluster0.8w2jm8f.mongodb.net/?appName=Cluster0")
 db = client["flappy_bird"]
 
 players = db["players"]          # Lưu 1 record/người chơi
